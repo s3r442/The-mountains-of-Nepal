@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
     'about.apps.AboutConfig',
     'russian_mounts.apps.RussianMountsConfig',
     'nepal_mounts.apps.NepalMountsConfig',
