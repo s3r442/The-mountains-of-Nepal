@@ -1,3 +1,25 @@
+#WLS_logo {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.mount_name {
+    color: white;
+}
+.mount_front_info,
+.mount_front_info a {
+    color: white;
+}
+
+
 body {
     background: rgb(255, 170, 0);
+}
+
+.mountain_front_img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
 }

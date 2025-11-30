@@ -31,7 +31,10 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'm_app.apps.MAppConfig',
+    'about.apps.AboutConfig',
+    'russian_mounts.apps.RussianMountsConfig',
+    'nepal_mounts.apps.NepalMountsConfig',
+    'homepage.apps.HomepageConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
