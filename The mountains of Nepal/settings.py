@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
 
-    'about.apps.AboutConfig',
+    'sssr_mounts.apps.SssrMountsConfig',
     'russian_mounts.apps.RussianMountsConfig',
     'nepal_mounts.apps.NepalMountsConfig',
     'homepage.apps.HomepageConfig',
