@@ -3,5 +3,5 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('<pk>/', views.mount_page) 
+    path('<pk>/', views.nepal_mounts_pages) 
 ]
