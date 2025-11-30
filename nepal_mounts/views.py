@@ -4,3 +4,7 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'nepal.html')
 
+
+def chomolungma(request,pk):
+    return render(request, 'chomolungma.html')
+
