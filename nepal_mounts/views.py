@@ -5,6 +5,7 @@ def index(request):
     return render(request, 'nepal.html')
 
 
-def chomolungma(request,pk):
-    return render(request, 'chomolungma.html')
+def mount_page(request,pk):
+    if pk == 'chomolungma':
+        return render(request, 'chomolungma.html')
 
